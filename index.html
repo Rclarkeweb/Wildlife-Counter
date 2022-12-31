@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wildlife Counter</title>
     <!-- My CSS -->
@@ -14,12 +14,16 @@
     <script src="bootstrap.bundle.min.js"></script>
   </head>
   <body>
+
+    <!-- Title and instructions -->
     <h1 class="display-1 text-center pt-4 pb-2">Wildlife Counter</h1>
 
     <p class="lead text-center pb-4">
       How many of these animals will you see today?<br/>
       Simply click on the Plus sign '+' to add an animal or the minus '-' to take one away.<br/>
       To see your final answers click the submit button at the bottom of the screen.</p>
+
+    <!-- First row of animal counters-->
 
     <div class="container-fluid px-4 text-center">
     <div class="row gx-5">
@@ -54,6 +58,7 @@
       </div>
     </div>
 
+  <!-- Second row of animal counters -->
     <div class="row gx-5">
       <div class="fox col-md-4 p-3">
         <img src="img\fox.jpg" alt="A fox standing on a road" class="img-fluid"/>
@@ -88,6 +93,7 @@
     </div>
     </div>
 
+    <!-- Display answers section with button -->
     <div class="container px-4  text-center">
         <h3 class="display-3 text-center pt-4">Show your final result!</h3>
 
@@ -98,6 +104,8 @@
         <span id="answer"></span>
     </div>
 
+    <!-- JavaScript Code link-->
 	<script src="main.js"></script>
+  
   </body>
 </html>

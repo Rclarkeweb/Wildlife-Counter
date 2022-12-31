@@ -5,7 +5,7 @@ It includes clickable buttons that add or subtract to the total number of animal
 
 ## View project live
 
-You can see my project [live here](https://rclarkeweb.github.io/Wildlife-Counter/src/index.html).
+You can see my project [live here](https://rclarkeweb.github.io/Wildlife-Counter/).
 
 ### Licenses
 

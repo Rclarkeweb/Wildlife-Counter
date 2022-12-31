@@ -1,4 +1,4 @@
-// Blackbird counter
+// Create Blackbird counter
 
 var i = 0;
 
@@ -17,7 +17,7 @@ var i = 0;
     };
 
 
-// Squirrel counter
+// Create Squirrel counter
 var x = 0;
 
     function incNumberS() {
@@ -35,7 +35,7 @@ var x = 0;
     };
 
 
-// Hedgehog counter
+// Create Hedgehog counter
 var y = 0;
 
     function incNumberH() {
@@ -53,7 +53,7 @@ var y = 0;
     };
 
 
-// Fox counter
+// Create Fox counter
 var a = 0;
 
     function incNumberF() {
@@ -70,7 +70,7 @@ var a = 0;
         document.getElementById("foxDisplay").innerHTML = a;
     };
 
-// Robin counter
+// Create Robin counter
 var b = 0;
 
     function incNumberR() {
@@ -87,7 +87,7 @@ var b = 0;
         document.getElementById("robinDisplay").innerHTML = b;
     };
 
-// Rabbit counter
+// Create Rabbit counter
 var d = 0;
 
     function incNumberRa() {
@@ -105,7 +105,7 @@ var d = 0;
     };
 
 
-    // Show answers with button onlick
+    // Take inputs and show answers with button onlick
 
     let submitResult = () => {
         document.getElementById("answer").innerText = `You saw:
