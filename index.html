@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wildlife Counter</title>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="main.css">
+    <!-- CSS only -->
+    <script src="bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <h1 class="display-1 text-center pt-4 pb-2">Wildlife Counter</h1>
+
+    <p class="lead text-center pb-4">
+      How many of these animals will you see today?<br/>
+      Simply click on the Plus sign '+' to add an animal or the minus '-' to take one away.<br/>
+      To see your final answers click the submit button at the bottom of the screen.</p>
+
+    <div class="container-fluid px-4 text-center">
+    <div class="row gx-5">
+    <div class="blackbird col-md-4 p-3">
+        <img src="img\blackbird.jpg" alt="A male Blackbird on a wooden fence" class="img-fluid"/>
+        <br/>
+        <div class="counting">
+          <button value="Decrease" id="dec" onclick="decNumber()" class="m-3"type="button">-</button>
+          <span id="display">0</span>
+          <button value="Increase" id="inc" onclick="incNumber()" class="m-3" type="button">+</button>
+        </div>
+      </div>
+
+      <div class="squirrel col-md-4 p-3">
+        <img src="img\squirrel.jpg" alt="A grey Squirrel holding an acorn" class="img-fluid"/>
+        <br/>
+        <div class="counting">
+          <button value="Decrease" id="dec" onclick="decNumberS()" class="m-3" type="button">-</button>
+          <span id="squirrelDisplay">0</span>
+          <button value="Increase" id="inc" onclick="incNumberS()" class="m-3" type="button">+</button>
+        </div>
+      </div>
+
+      <div class="hedgehog col-md-4 p-3">
+        <img src="img\hedgehog.jpg" alt="A Hedgehog on grass" class="img-fluid"/>
+        <br/>
+        <div class="counting">
+          <button value="Decrease" id="dec" onclick="decNumberH()" class="m-3" type="button">-</button>
+          <span id="hedgehogDisplay">0</span>
+          <button value="Increase" id="inc" onclick="incNumberH()" class="m-3" type="button">+</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row gx-5">
+      <div class="fox col-md-4 p-3">
+        <img src="img\fox.jpg" alt="A fox standing on a road" class="img-fluid"/>
+        <br/>
+        <div class="counting">
+          <button value="Decrease" id="dec" onclick="decNumberF()" class="m-3" type="button">-</button>
+          <span id="foxDisplay">0</span>
+          <button value="Increase" id="inc" onclick="incNumberF()" class="m-3" type="button">+</button>
+        </div>
+      </div>
+
+      <div class="robin col-md-4 p-3">
+        <img src="img\robin.jpg" alt="A robin facing forward standing on a curved pole" class="img-fluid"/>
+        <br/>
+        <div class="counting">
+          <button value="Decrease" id="dec" onclick="decNumberR()" class="m-3" type="button">-</button>
+          <span id="robinDisplay">0</span>
+          <button value="Increase" id="inc" onclick="incNumberR()" class="m-3" type="button">+</button>
+        </div>
+      </div>
+
+      <div class="rabbit col-md-4 p-3">
+        <img src="img\rabbit.jpg" alt="A wild rabbit looking left with a daisy in its mouth" class="img-fluid"/>
+        <br/>
+        <div class="counting">
+          <button value="Decrease" id="dec" onclick="decNumberRa()" class="m-3" type="button">-</button>
+          <span id="rabbitDisplay">0</span>
+          <button value="Increase" id="inc" onclick="incNumberRa()" class="m-3" type="button">+</button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+    <div class="container px-4  text-center">
+        <h3 class="display-3 text-center pt-4">Show your final result!</h3>
+
+        <button value="Submit" id="submitanswer" onclick="submitResult()" class="m-3" type="button">Click Here</button>
+    </div>
+
+    <div class="container mb-5 text-center">
+        <span id="answer"></span>
+    </div>
+
+	<script src="main.js"></script>
+  </body>
+</html>
